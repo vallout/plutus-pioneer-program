@@ -16,6 +16,8 @@ library
                      , Week03.Solution1
                      , Week03.Solution2
                      , Week03.Vesting
+                     , Week03.TraceHW1
+                     , Week03.TraceHW2
   build-depends:       aeson
                      , base ^>=4.14.1.0
                      , containers
@@ -27,5 +29,6 @@ library
                      , plutus-tx-plugin
                      , plutus-tx
                      , text
+                     , freer-extras
   default-language:    Haskell2010
   ghc-options:         -Wall -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas -fno-strictness -fno-spec-constr -fno-specialise
